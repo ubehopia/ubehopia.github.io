@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo&display=swap');
+/* Above is to add the google font */
+
+
+body {
+    background-color: #ECE2D0;
+    color: #323031;
+    font-family: 'Heebo', Arial, sans-serif;
+}
+
+header {
+    background-color: #D5B9B2;
+    color: #A26769;
+    text-align: center;
+}
+
+h1 {
+    line-height: 200%;
+}
+
+p {
+    color: #323031;
+}
+
+footer {
+    background-color: #D5B9B2;
+    color: #323031;
+    font-size: .60em;
+    font-style: italic;
+    text-align: center;
+}
