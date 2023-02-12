@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap');
+/* Above is to add the google font Roboto Condensed */
+
+
+body {
+    background-color: #FCEBB6;
+    color: #221811;
+    font-family: 'Roboto Condensed', Tahoma, Arial, sans-serif;
+}
+/* Above I apply the Roboto Condensed */
+
+header {
+    background-color: #D2B48C;
+    color: #8C3826;
+    text-align: center;
+}
+
+h1 {
+    line-height: 200%;
+}
+
+nav {
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    color: #8C3826;
+}
+
+footer {
+    background-color: #D2B48C;
+    font-size: .60em;
+    font-style: italic;
+    text-align: center;
+}
+
+#wrapper {
+    width: 80%;
+    background-color: #FEFAEB;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.css-selector {
+    font-family: 'Solitreo', serif;
+    }
