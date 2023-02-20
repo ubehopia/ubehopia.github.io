@@ -7,10 +7,10 @@ body {
     background-image: url(images/fadedroad50.jpg);
     background-repeat: no-repeat;
     color: #221811;
-    font-family: 'Roboto Condensed', Tahoma, Arial, sans-serif;
+    font-family: Tahoma, Arial, sans-serif;
 }
 
-/* Above I apply the Roboto Condensed */
+/* Moved Roboto Condensed only to apply on h1*/
 
 header {
     background-color: #D2B48C;
@@ -29,6 +29,7 @@ main {
 
 h1 {
     font-size: 3em;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 nav {
@@ -53,8 +54,6 @@ h3 {
 
 dt {
     color: #8C3826;
-    padding-left: .5%
-        /* I'm adding padding left here because I don't like how it looks without it */
 }
 
 h4 {
