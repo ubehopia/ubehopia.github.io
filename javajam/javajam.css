@@ -112,20 +112,26 @@ nav a:hover {
 
 nav ul {
     list-style-type: none;
-    flex-direction: column;
-    display: flex;
+    /* flex-direction: column;
+    display: flex; */
     margin: 0;
     padding: 0;
     font-size: 1.25em;
 }
 
 nav li {
-    padding-top: 0.5em;
+    /* padding-top: 0.5em;
     padding-bottom: 0.5em;
     padding-left: 1em;
     padding-right: 1em;
-    width: 100%;
-    border-bottom: 1px solid;
+    width: 100%; */
+    border-bottom: 1px solid #FEF6C2;
+}
+
+nav li a {
+    display: flex;
+    flex-direction: column;
+    padding: .5em 1em;
 }
 
 footer {
@@ -209,6 +215,13 @@ tr:nth-of-type(odd) {
     background-size: 100% 100%;
 }
 
+#herocouch {
+	height: 300px;
+	background-image: url(images/herocouch.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
 form {
     display: flex;
     flex-direction: column;
@@ -219,6 +232,21 @@ form {
 input,
 textarea {
     margin-bottom: .5em;
+}
+
+.item {
+	background-color: #FAF9F7;
+	margin: 1em;
+	padding: 1em;
+	overflow: auto;
+}
+
+.item img {
+	float: right;
+}
+
+.current {
+	background-color: #8C3826;
 }
 
 @media (min-width: 600px) {
