@@ -9,13 +9,12 @@ body {
     margin: 0;
 }
 
-/* Moved Roboto Condensed only to apply on h1*/
-
 header {
     background-color: #0062b5;
     color: #d2e6f8;
     padding-top: 5px;
     padding-bottom: 5px;
+    background-repeat: no-repeat;
     padding-left: 105px;
     height: 128px;
 }
@@ -48,10 +47,12 @@ main {
 main h2,
 h3,
 h4,
+h5,
 p,
 div,
 ul,
-ol {
+ol,
+dl {
     padding-left: 1em;
     padding-right: 1em;
 }
@@ -66,6 +67,10 @@ h2 {
 }
 
 h3 {
+    color: #0c0c0c;
+}
+
+dt {
     color: #0c0c0c;
 }
 
@@ -120,8 +125,6 @@ nav a:hover {
 
 nav ul {
     list-style-type: none;
-    /* flex-direction: column;
-    display: flex; */
     margin: 0;
     padding: 0;
     font-size: 1.25em;
@@ -129,19 +132,12 @@ nav ul {
 
 nav ol {
     list-style-type: none;
-    /* flex-direction: column;
-    display: flex; */
     margin: 0;
     padding: 0;
     font-size: 1.25em;
 }
 
 nav li {
-    /* padding-top: 0.5em;
-    padding-bottom: 0.5em;
-    padding-left: 1em;
-    padding-right: 1em;
-    width: 100%; */
     border-bottom: 1px solid #d2e6f8;
 }
 
@@ -238,18 +234,18 @@ textarea {
 }
 
 .item {
-	background-color: #FAF9F7;
-	margin: 1em;
-	padding: 1em;
-	overflow: auto;
+    background-color: #FAF9F7;
+    margin: 1em;
+    padding: 1em;
+    overflow: auto;
 }
 
 .item img {
-	float: right;
+    float: right;
 }
 
 .current {
-	background-color: #d2e6f8;
+    background-color: #d2e6f8;
 }
 
 @media (min-width: 600px) {
@@ -331,6 +327,7 @@ textarea {
     @supports (display: grid) {
         header {
             grid-area: header;
+            background-image: url(images/logo.jpg);
         }
 
         nav {
