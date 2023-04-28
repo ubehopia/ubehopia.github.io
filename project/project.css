@@ -83,6 +83,13 @@ h4 {
     clear: left;
 }
 
+h5 {
+    background-color: #0062b5;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    clear: left;
+}
+
 main ul {
     padding-left: 2em;
 }
@@ -238,11 +245,10 @@ textarea {
 }
 
 /* Details and Summary Formatting */
-/* Borrowed from hxxps://codepen.io/MoritzGiessmann/pen/PobErJB */
+/* Borrowed from hxxps://codepen.io/MoritzGiessmann/pen/PobErJB and edited as best I could */
 
-/* Can't figure out why the font style changes for just this part and
-can't figure out how to make it consistent with literally everything else on my website
-so I'll just lose points I guess */
+/* Couldn't figure out in time why the font style changes for just the summary part.
+It's inconsistent I'm sorry*/
 
 details {
     width: 80%;
@@ -255,10 +261,10 @@ details {
 }
 
 summary {
-    padding: 1rem;
+    padding: 0.5rem;
     display: block;
     background: #0062b5;
-    padding-left: 2.2rem;
+    padding-left: 0.7rem;
     position: relative;
     cursor: pointer;
 }
@@ -348,6 +354,11 @@ details>ul {
     h4 {
         margin-left: 10%;
         margin-right: 10%;
+    }
+
+    h5 {
+        margin-left: 1.5%;
+        margin-right: 1.5%;
     }
 
     form {
